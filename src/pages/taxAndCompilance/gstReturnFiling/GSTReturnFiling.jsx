@@ -2,7 +2,7 @@ import React from 'react'
 import UserFormPage from '../../../components/userForm/UserFormPage'
 import "./GSTReturnFiling.css"
 import FocusButton from '../../../components/focusButtons/FocusButton'
-import GSTReturnFilingDocuments from './GstReturnFilingDocuments'
+import GSTReturnFilingDocuments from './GSTReturnFilingDocuments'
 import GSTReturnTypes from './GSTReturnTypes'
 import FAQ from '../../../components/FAQ/FAQ'
 import WhatIsGSTReturn from './WhatIsGSTReturn'
