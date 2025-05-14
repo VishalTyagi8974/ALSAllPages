@@ -1,0 +1,26 @@
+.HeroGSTReturnFilingSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+background-image: linear-gradient( 0.3deg,  rgba(252,225,208,1) 30%, rgb(243, 147, 195) 55.7%, #9966ff 81.8% );    
+
+    
+    z-index: -2;
+    clip-path: polygon(0 0, 100% 0, 100% 240px, 0 480px);
+}
+
+@media (max-width:1400px){
+    .HeroGSTReturnFilingSection {
+    clip-path: polygon(0 0, 100% 0, 100% 215px, 0 430px);
+    }
+
+}
+@media (max-width:992px){
+    .HeroGSTReturnFilingSection {
+    clip-path: polygon(0 0, 100% 0, 100% 140px, 0 280px);
+    }
+
+}
+

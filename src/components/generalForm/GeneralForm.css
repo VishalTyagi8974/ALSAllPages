@@ -1,0 +1,35 @@
+/* Outer container (optional styling) */
+.my-select-container {
+    width: 100%;
+
+  }
+  
+  /* Input control styling */
+  .custom__control {
+    padding: 5px;
+    
+    font-size: 0.85rem;
+    border-radius: 30px;
+    border-color: #ced4da;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .custom__control:hover {
+    border-color: #86b7fe;
+  }
+  
+  /* Options in the dropdown */
+  .custom__option {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  /* Focused option */
+  .custom__option--is-focused {
+    background-color: #f1f1f1;
+  }
+  

@@ -1,0 +1,22 @@
+.HeroTrademarkRenewalSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 106.1deg,  rgba(255,129,86,1) 2.2%, rgba(223,69,132,1) 38.7%, rgba(67,37,129,1) 90.2% ); z-index: -2;
+    clip-path: polygon(0 0, 100% 0, 100% 240px, 0 480px);
+}
+
+@media (max-width:1400px){
+    .HeroTrademarkRenewalSection {
+    clip-path: polygon(0 0, 100% 0, 100% 215px, 0 430px);
+    }
+
+}
+@media (max-width:992px){
+    .HeroTrademarkRenewalSection {
+    clip-path: polygon(0 0, 100% 0, 100% 140px, 0 280px);
+    }
+
+}

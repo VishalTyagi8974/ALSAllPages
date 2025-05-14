@@ -1,0 +1,48 @@
+.tab-screen {
+    width: 100%;
+    color:black;
+    height: 100%;
+    border:1px solid #00000011;
+    background-color:white;
+    padding: 20px;
+    border-radius:30px;
+    margin-bottom: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ItrFormData {
+    height:100%;
+}
+
+@media (max-width: 768px) {
+    .ItrFormData {
+        height: 660px ;
+        
+    }
+}
+
+@media (max-width: 640px) {
+    .ItrFormData {
+        height: 450px;
+       
+    }
+}
+
+.ItrFormResults {
+    max-height:670px;
+}
+
+@media (max-width: 768px) {
+    .ItrFormResults {
+        max-height: 660px ;
+        
+    }
+}
+
+@media (max-width: 640px) {
+    .ItrFormResults {
+        max-height: 450px;
+       
+    }
+}

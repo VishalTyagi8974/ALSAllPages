@@ -1,0 +1,23 @@
+.HeroFSSAIRegistrationSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    z-index: -2;
+    clip-path: polygon(0 0, 100% 0, 100% 240px, 0 480px);
+}
+
+@media (max-width:1400px){
+    .HeroFSSAIRegistrationSection {
+    clip-path: polygon(0 0, 100% 0, 100% 215px, 0 430px);
+    }
+
+}
+@media (max-width:992px){
+    .HeroFSSAIRegistrationSection {
+    clip-path: polygon(0 0, 100% 0, 100% 140px, 0 280px);
+    }
+
+}
